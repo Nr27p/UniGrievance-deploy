@@ -1,0 +1,62 @@
+.kenburns-top {
+        -webkit-animation: kenburns-top 2s ease-out both;
+        animation: kenburns-top 2s ease-out both; /* Adjust duration to 2 seconds */
+}
+
+@-webkit-keyframes kenburns-top {
+        0% {
+        -webkit-transform: scale(0.5) translateY(0);
+        transform: scale(0.5) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+        transform-origin: 50% 16%;
+        }
+        50% {
+        -webkit-transform: scale(1.2) translateY(-15px);
+        transform: scale(1.2) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        }
+        100% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        }
+}
+
+@keyframes kenburns-top {
+        0% {
+        -webkit-transform: scale(0.5) translateY(0);
+        transform: scale(0.5) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+        transform-origin: 50% 16%;
+        }
+        50% {
+        -webkit-transform: scale(1.2) translateY(-15px);
+        transform: scale(1.2) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+        }
+        100% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        }
+}
+
+
+
+/* For Home page POP UP */
+.text-shadow-pop-bl {
+        color: #ffffff; /* Set text color to white */
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Apply shadow in lightest shade of grey */
+        animation: text-shadow-pop-bl 0.6s both 2s; /* Delay animation start by 2 seconds */
+}
+
+@keyframes text-shadow-pop-bl {
+        0% {
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        transform: translateX(0) translateY(0);
+        }
+        100% {
+        text-shadow: -1px 1px 5px rgba(0, 0, 0, 0.1), -2px 2px 5px rgba(0, 0, 0, 0.1), -3px 3px 5px rgba(0, 0, 0, 0.1), -4px 4px 5px rgba(0, 0, 0, 0.1), -5px 5px 5px rgba(0, 0, 0, 0.1), -6px 6px 5px rgba(0, 0, 0, 0.1), -7px 7px 5px rgba(0, 0, 0, 0.1), -8px 8px 5px rgba(0, 0, 0, 0.1);
+        transform: translateX(8px) translateY(-8px);
+        }
+}    

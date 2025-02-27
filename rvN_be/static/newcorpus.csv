@@ -1,0 +1,580 @@
+Description,Priority
+"""There has been a gas leak reported in our kitchen area. The smell is strong and poses a severe risk to residents. Please attend immediately.""",High
+"""A major fire broke out in the electrical room on the second floor. The fire alarm is ringing, and we need urgent assistance from the fire department.""",High
+"""There is a severe flood situation in our basement due to a burst pipe. Water is rising quickly, and it could damage the building infrastructure.""",High
+"""We are experiencing a power outage in the entire building, including emergency lights. This is creating a dangerous situation for elderly residents.""",High
+"""A critical security breach has occurred. Unauthorized individuals are attempting to enter restricted areas. Immediate action is needed.""",High
+"""The main entrance gate has malfunctioned, leaving it wide open. This is a serious security risk, especially at night. Please fix it now.""",High
+"""A tree has fallen on the road due to heavy winds, blocking the entire path and endangering vehicles. We need urgent removal services.""",High
+"""There was a robbery attempt in our neighborhood last night. Several residents are concerned for their safety and are demanding police presence.""",High
+"""The ceiling of the lobby area is collapsing due to structural damage. This is extremely hazardous, and repair work needs to start immediately.""",High
+"""A car accident has occurred right outside our building, and one of the vehicles is leaking fuel. This could lead to an explosion if not handled quickly.""",High
+"""Our emergency exit is currently blocked by debris from construction work. This is a life-threatening issue in case of a fire or evacuation.""",High
+"""Several residents have reported severe food poisoning after eating from the cafeteria today. We need medical assistance on-site immediately.""",High
+"""There is a dangerous electrical short circuit happening frequently in the main fuse box. Sparks are visible, posing a fire risk.""",High
+"""A stray dog has entered the children's playground and is behaving aggressively. This is a serious safety concern for the kids.""",High
+"""A loud explosion sound was heard from the boiler room. It seems like there is a gas leak. This needs urgent attention from the maintenance team.""",High
+"""There is an active water leak in the server room, which is directly threatening our IT infrastructure. We need emergency services now.""",High
+"""A group of strangers is loitering near the school entrance, making parents uncomfortable. Please send security immediately to assess the situation.""",High
+"""The elevator has stopped working, and there are people trapped inside. We need emergency rescue to free them safely.""",High
+"""There is a broken glass door in the lobby, with sharp edges exposed. This is extremely dangerous for anyone passing by.""",High
+"""A chemical spill occurred in the laboratory, releasing toxic fumes. Immediate evacuation and emergency services are needed.""",High
+"""Heavy smoke is coming from the apartment above mine. I believe there may be a fire. The fire department needs to be alerted right away.""",High
+"""The construction site next door had a collapse, and debris has fallen onto our property. This is a major hazard that needs urgent attention.""",High
+"""A power line has fallen onto the street after a storm, posing a severe risk of electrocution. Authorities need to address this immediately.""",High
+"""A sewage backup is causing waste to spill into the main street. The smell is unbearable, and it's a significant health hazard.""",High
+"""The main gas pipeline in the kitchen area has burst. There is a strong gas odor spreading, and everyone needs to evacuate immediately.""",High
+"""We have noticed a strong smell of burning in the building. It appears there might be an electrical fire in the basement. Please send emergency services immediately.""",High
+"""A person has fainted in the hallway and is unresponsive. We need urgent medical assistance to assess the situation and provide necessary care.""",High
+"""The gas alarm has gone off in the kitchen area. It’s an immediate safety concern, and we need the gas company to intervene before any accidents occur.""",High
+"""There is a major water pipe burst in the main lobby. The water is flooding the area rapidly, and it poses a slipping hazard for everyone.""",High
+"""A transformer near our building exploded, causing sparks and flames. We need the fire department to handle this situation quickly.""",High
+"""We just experienced a strong tremor, and there are cracks appearing in the building walls. It may not be safe to stay inside. Authorities need to inspect this right away.""",High
+"""A child has gone missing from the daycare area. This is an emergency situation, and immediate action is required to locate the child.""",High
+"""There is a large oil spill on the road near the entrance. This is extremely dangerous for vehicles, especially with the ongoing rain making the road slippery.""",High
+"""A resident has reported severe chest pain and difficulty breathing. We need an ambulance immediately as it could be a heart attack.""",High
+"""The fire escape door is jammed and cannot be opened. This is a serious risk in case of an emergency evacuation.""",High
+"""A large window pane has shattered and is about to fall onto the sidewalk. It poses a significant danger to anyone passing below.""",High
+"""There is an active shooter situation reported in the vicinity. Residents are scared and hiding. Police assistance is needed urgently.""",High
+"""A part of the ceiling collapsed in the children’s playroom. This is extremely dangerous, and the area needs to be secured immediately.""",High
+"""An elderly resident is stuck in the elevator and seems to be experiencing breathing difficulties. We need emergency rescue and medical help right away.""",High
+"""A loud bang was heard from the power generator room, and smoke is now visible. This could indicate a major fault or fire. Immediate action is needed.""",High
+"""A fight has broken out in the common area involving several people. The situation is escalating quickly, and security needs to intervene immediately.""",High
+"""A gas cylinder has fallen and appears to be leaking. This is extremely hazardous and needs to be handled by professionals without delay.""",High
+"""The entire building is shaking due to heavy construction work nearby. This could cause structural damage if not stopped right away.""",High
+"""The alarm system for fire detection is malfunctioning, giving false signals. In case of an actual fire, we may not be alerted. This needs urgent repair.""",High
+"""There is an unconscious person lying near the pool. They seem to have suffered an injury, and we need immediate medical help.""",High
+"""A suspicious package was found in the parking lot, and no one knows its origin. It could be a potential bomb threat. Authorities should be notified immediately.""",High
+"""The building's main water supply is contaminated. The water has a foul smell and looks discolored. This poses a serious health risk to all residents.""",High
+"""A section of the road has caved in, creating a large sinkhole right outside the building entrance. This is a major hazard for vehicles and pedestrians.""",High
+"""There has been a chemical spill in the storage room. The fumes are strong and toxic. Immediate evacuation and emergency services are needed.""",High
+"""A loud gunshot was heard from the apartment next door. There could be a dangerous situation unfolding, and police assistance is urgently required.""",High
+"""A fire has broken out in the kitchen area. The flames are spreading quickly, and the fire alarm is ringing. We need immediate fire department assistance.""",High
+"""There’s a strong smell of gas leaking from the pipeline in the basement. It’s extremely dangerous, and we need emergency services to address it now.""",High
+"""The elevator suddenly dropped two floors and stopped. Several people are trapped inside, and one of them seems injured. Immediate help is required.""",High
+"""A vehicle crashed into the main gate, and the driver is unconscious. This is an urgent situation, and emergency medical services are needed.""",High
+"""The power lines have fallen due to a storm, and live wires are sparking near the building entrance. This poses a severe risk of electrocution.""",High
+"""A part of the construction scaffold has collapsed onto the sidewalk, injuring a passerby. Medical help and rescue services are urgently needed.""",High
+"""The air conditioning system is malfunctioning and releasing smoke. It could potentially lead to a fire, and immediate inspection is required.""",High
+"""There is a person acting violently in the lobby, threatening others with a sharp object. We need security intervention immediately.""",High
+"""A heavy metal gate has come off its hinges and fallen onto the parking area. It could seriously injure anyone nearby. Emergency repair is needed.""",High
+"""We’ve detected a chemical smell in the air vents. This could be a hazardous gas leak, and we need professionals to investigate urgently.""",High
+"""An electrical short circuit caused sparks in the wiring panel. This could lead to a fire outbreak if not fixed immediately.""",High
+"""A dangerous animal, possibly a snake, was spotted in the children’s play area. We need animal control to handle this immediately.""",High
+"""A resident has been locked out on the balcony with no access back inside. It’s freezing outside, and they are showing signs of distress.""",High
+"""The central heating system has failed during severe winter conditions. This poses a health risk, especially for elderly residents.""",High
+"""A woman has been stuck in the restroom for over an hour, and she appears to be in pain. We need urgent medical assistance.""",High
+"""A fire alarm was triggered, but the sprinklers did not activate. There is visible smoke in the building, indicating a potential fire.""",High
+"""A protest has broken out outside the main entrance, blocking access and causing panic among residents. We need police assistance urgently.""",High
+"""A car in the parking lot has caught fire, and it’s spreading to nearby vehicles. Immediate action from the fire department is needed.""",High
+"""A violent storm has caused a tree to fall onto the power lines, cutting off electricity and posing a risk of electric shock.""",High
+"""A sudden explosion sound was heard from the boiler room. It could indicate a gas leak or equipment failure, and we need emergency services.""",High
+"""The building’s security system is malfunctioning, causing all doors to lock. This is a safety issue as people are unable to exit the premises.""",High
+"""A tenant reported hearing loud screams and sounds of struggle from the apartment next door. This could indicate domestic violence or an emergency situation.""",High
+"""Floodwaters have entered the ground floor after heavy rains, making the area unsafe and causing property damage. Evacuation may be necessary.""",High
+"""An escalator in the mall suddenly stopped and caused a pile-up of people at the top. There are reports of injuries, and medical help is needed immediately.""",High
+"""A water tank on the rooftop burst, causing water to gush down through the building walls. This could lead to structural damage if not addressed right away.""",High
+"""The building's foundation is showing visible cracks after the recent earthquake. Immediate structural inspection is critical to prevent a collapse.""",High
+"""There’s an active gas explosion in the storage room. The fire is spreading rapidly, and we need firefighters on the scene immediately.""",High
+"""A pedestrian was hit by a speeding car right outside the gate. The person is unconscious and needs immediate medical attention.""",High
+"""The emergency exit is blocked due to ongoing construction work. This poses a serious safety risk during any evacuation.""",High
+"""There’s a strong chemical odor in the office, making several employees feel dizzy. Immediate evacuation and investigation are necessary.""",High
+"""A toddler is trapped inside a locked car in the parking lot. The child is in distress, and we need rescue services right away.""",High
+"""The ceiling collapsed in the main hall, injuring several people. Medical teams are needed urgently to assist the injured.""",High
+"""The power outage has disabled the hospital’s ventilators and other critical equipment. We need backup generators activated immediately.""",High
+"""A suspected case of food poisoning has affected multiple employees after lunch in the cafeteria. Emergency medical assistance is required.""",High
+"""A security guard reported seeing a suspicious package left unattended near the entrance. It could be a bomb threat, and police intervention is needed.""",High
+"""A resident has fallen down the staircase and is unable to move. We need paramedics urgently to handle potential severe injuries.""",High
+"""There’s an armed robbery happening at the convenience store in the building. Police need to be alerted immediately.""",High
+"""The boiler room is overheating and emitting smoke. This could lead to an explosion if not attended to urgently.""",High
+"""A resident's apartment caught fire due to an electrical fault. The flames are spreading fast, and immediate firefighting efforts are required.""",High
+"""A section of the ceiling is about to collapse in the gym area due to water leakage. This is a serious hazard, and the area must be closed off immediately.""",High
+"""A child was seen playing dangerously close to the edge of the rooftop. Security needs to intervene immediately to prevent an accident.""",High
+"""An elderly man collapsed in the lobby and seems unresponsive. We need urgent medical help for resuscitation.""",High
+"""The flood alarms have been triggered, and water is already rising in the basement, threatening to damage electrical systems.""",High
+"""A crane operating on the construction site next door lost control and swung into our building’s façade, causing severe damage.""",High
+"""Several residents reported feeling tremors inside the building. We need to evacuate and have the structure inspected immediately for safety.""",High
+"""A delivery truck crashed into the main gas line, causing a visible gas leak. There’s a high risk of explosion if not addressed urgently.""",High
+"""A group of people have barricaded themselves inside an office, refusing to leave. There are reports of violent behavior, and security is needed.""",High
+"""The hospital's emergency room is overwhelmed with patients after a local accident. Additional medical staff and resources are required immediately.""",High
+"""A fallen tree is blocking the emergency access road, preventing any rescue vehicles from entering the premises.""",High
+"""The fire alarm system is malfunctioning during a real fire evacuation. This could lead to chaos and needs immediate technical intervention.""",High
+"""There’s a major gas leak in the cafeteria kitchen, and the smell is spreading across the building. Immediate evacuation is needed.""",High
+"""A resident has suffered a heart attack in the lobby. Paramedics are needed urgently for life-saving measures.""",High
+"""The elevator has malfunctioned, trapping several people inside, including a pregnant woman. We need emergency services immediately.""",High
+"""There’s an active shooter reported near the entrance. Everyone is advised to lock down, and police intervention is required.""",High
+"""A child fell into the swimming pool and is not breathing. Lifeguards and paramedics are needed on the scene immediately.""",High
+"""The fire sprinkler system failed during an active fire in the storage area. Immediate firefighting action is needed.""",High
+"""A chemical spill in the lab is causing toxic fumes. All personnel need to be evacuated, and hazmat teams must be alerted.""",High
+"""A resident reported severe flooding in the basement, and the water is reaching electrical outlets. Immediate action is necessary.""",High
+"""The central heating system exploded, causing a fire in the utility room. Emergency response teams are required immediately.""",High
+"""The ceiling fan in the classroom fell down, narrowly missing a student. This is a safety emergency that needs fixing urgently.""",High
+"""A group of people are stuck in a lift during a power outage, and they’re starting to panic. Emergency rescue is needed right away.""",High
+"""The air conditioning unit in the server room has failed, causing overheating. This could lead to data loss if not addressed quickly.""",High
+"""A large tree branch fell onto a parked car, causing severe damage and a possible fuel leak. Immediate action is required.""",High
+"""The emergency exit door is jammed shut during an evacuation drill. This poses a serious risk in case of a real emergency.""",High
+"""A violent altercation broke out in the common area, and someone has been injured. Security and medical teams are needed immediately.""",High
+"""There’s a strong smell of burning wires coming from the control room. This could indicate an electrical fire hazard.""",High
+"""The school bus was involved in a major accident on its route. Multiple children are injured, and paramedics are urgently needed.""",High
+"""A significant water main break has caused flooding on the first floor, damaging equipment and posing a risk of electric shock.""",High
+"""A roof panel has come loose during a storm, threatening to fall onto the playground below. This needs urgent repair.""",High
+"""The main gate has malfunctioned and is stuck open, posing a security risk for the premises.""",High
+"""A heavy snowfall has caused the roof to start sagging in the atrium area, posing a risk of collapse. Evacuation is necessary.""",High
+"""A power line has fallen onto the main road leading to the facility, causing a dangerous electrical hazard for vehicles and pedestrians.""",High
+"""The central alarm system has been triggered by a suspected gas leak, and the smell of gas is noticeable throughout the building.""",High
+"""An elderly person slipped on a wet floor and hit their head. They’re bleeding and unconscious. Medical help is needed immediately.""",High
+"""A broken pipe has burst, causing a rapid flow of water that is flooding the entire basement level.""",High
+"""The stairway railing has come loose and could collapse if anyone leans on it. This needs urgent repair for safety.""",High
+"""A suspect with a weapon was spotted entering the building. Security needs to lock down the area and call the authorities right away.""",High
+"""The fire exit stairs are blocked by construction debris. This is a severe safety violation and needs immediate resolution.""",High
+"""The power outage has disabled all medical equipment in the intensive care unit. Backup generators need to be activated immediately.""",High
+"""A violent storm has damaged several windows, leaving broken glass on the floor and making the area hazardous for occupants.""",High
+"""The gas pipeline has burst in the main kitchen, and there is a strong smell of gas throughout the building. Evacuation is urgently needed.""",High
+"""A staff member has been injured by heavy machinery in the workshop. They require immediate medical attention.""",High
+"""The main entrance door is broken and won’t close, leaving the facility vulnerable to unauthorized entry. Immediate action is needed.""",High
+"""The fire alarm is malfunctioning and giving false alarms every hour. This is causing panic and needs urgent fixing.""",High
+"""A child has been reported missing from the daycare center. Security teams need to initiate a search immediately.""",High
+"""There is an active gas leak reported in the laboratory area. Everyone must evacuate immediately, and emergency services should be called.""",High
+"""A power surge has knocked out all the lights in the hospital's emergency ward. The backup generator isn’t starting.""",High
+"""A severe crack has appeared on the ceiling of the main auditorium, and pieces of concrete are falling down. Evacuation is required.""",High
+"""The heating system has failed during a winter storm, leaving the residents without any warmth. Immediate repairs are necessary.""",High
+"""A delivery truck collided with the main water line, causing a severe leak and potential flooding in the nearby offices.""",High
+"""There is a massive pest infestation reported in the food storage area, posing a health risk. Immediate pest control intervention needed.""",High
+"""A security breach has been detected at the main gate. Unauthorized personnel have accessed restricted areas.""",High
+"""The central IT system has been hacked, compromising sensitive data. IT and security teams must respond urgently.""",High
+"""A construction worker fell from a scaffolding and is unconscious. Emergency medical help is urgently needed.""",High
+"""There’s a fire in the electrical room, and the sprinkler system is not activating. Firefighters need to be called immediately.""",High
+"""A tornado warning has been issued, but the emergency alert system isn’t broadcasting the message. This needs urgent fixing.""",High
+"""The emergency exit is locked during a fire drill. This is a severe safety issue that needs to be resolved immediately.""",High
+"""An armed robbery is reported at the nearby ATM inside the premises. Police intervention is required urgently.""",High
+"""A resident slipped on icy stairs and broke their leg. They need immediate medical assistance.""",High
+"""A wild animal was spotted near the children’s playground, posing a severe risk to safety. Animal control needs to be called immediately.""",High
+"""The sewage system is backed up, causing raw sewage to flood into the lower floors. This is a serious health hazard.""",High
+"""The emergency medical alert button in the elder care facility is not working, putting lives at risk.""",High
+"""The building’s security cameras are down, and there has been a recent increase in theft incidents. Immediate repairs are needed.""",High
+"""A dangerous chemical spill occurred in the science lab, and the area needs to be evacuated and sealed off immediately.""",High
+"""The main water supply to the fire sprinklers has been cut off due to a broken valve. This needs urgent repair for fire safety.""",High
+"""An elderly person fell and is unable to move. Immediate medical help is required.""",High
+"""The construction crane on-site is unstable and at risk of toppling over. Evacuation and immediate intervention are needed.""",High
+"""The road leading to the emergency entrance is blocked by fallen debris, preventing access for ambulances. Clear it immediately.""",High
+"""A large tree branch fell onto a power line, causing sparks and a fire hazard. Emergency services are needed right away.""",High
+"""The escalator malfunctioned and caused a pile-up of people at the base, resulting in injuries. Immediate shutdown and help are required.""",High
+"""The building’s emergency PA system is down, and important evacuation announcements cannot be made.""",High
+"""A fire broke out in the storage area, and the fire alarm failed to sound. Firefighters need to be alerted immediately.""",High
+"""An unauthorized drone is flying dangerously close to the windows of the top floors, posing a risk to privacy and safety.""",High
+"""The gas detectors in the lab are giving false readings, creating confusion and potential safety hazards.""",High
+"""There’s a major road accident at the facility’s main entrance, blocking access for emergency vehicles. Immediate clearing is required.""",High
+"""A critical server outage has caused a complete system failure, halting all online operations. Immediate IT response is needed.""",High
+"""A broken pipe is causing rapid flooding in the electrical room, posing an imminent risk of electrocution.""",High
+"""An elevator is stuck between floors with no ventilation, and people inside are starting to panic. Immediate rescue is needed.""",High
+"""A landslide warning has been issued, and the hillside near the parking lot is already showing signs of movement. Immediate evacuation is needed.""",High
+"""There’s a dangerous electrical short circuit in the server room causing sparks. Immediate action is required to prevent a fire.""",High
+"""A violent altercation has broken out between two employees in the office lobby. Immediate intervention is needed.""",High
+"""The emergency phone line is down, and no one can contact emergency services. This must be fixed immediately.""",High
+"""A chemical fire broke out in the storage room, and the fire extinguisher isn’t working. Firefighters need to be called urgently.""",High
+"""The emergency doors are jammed during a fire drill, putting everyone at risk in case of an actual emergency.""",High
+"""Flooding has started in the basement due to a burst pipe, damaging valuable equipment. Emergency repairs are needed now.""",High
+"""A suspicious package was found near the main gate. Security teams must check it immediately to avoid any potential threat.""",High
+"""There’s a severe carbon monoxide leak in the underground parking area. Evacuate the area immediately and call emergency services.""",High
+"""A fire broke out in the kitchen during lunch hour, and the sprinklers failed to activate.""",High
+"""A blackout occurred in the intensive care unit (ICU), and the backup generator is not turning on.""",High
+"""An earthquake was felt, and structural damage is visible on the building’s pillars. Evacuate immediately.""",High
+"""The fire exit sign is missing, causing confusion during emergency drills. This needs to be rectified urgently.""",High
+"""A gas explosion was reported in the residential area nearby, causing tremors. Evacuate the premises as a precaution.""",High
+"""A medical emergency has occurred with a person fainting in the middle of a crowded area. First aid and ambulance service required.""",High
+"""A power outage disrupted critical machinery in the production line, halting operations completely.""",High
+"""There’s a bomb threat reported by a caller. Evacuate and contact law enforcement immediately.""",High
+"""A significant roof leak has started during heavy rain, flooding the office space and damaging electrical equipment.""",High
+"""The main power transformer outside the building exploded, causing a fire hazard. Emergency response needed immediately.""",High
+"""A violent storm has caused windows to shatter, leaving glass shards everywhere and posing a serious injury risk.""",High
+"""The escalator stopped suddenly, and several people have been injured due to the abrupt halt. Emergency services needed immediately.""",High
+"""A snake was found inside one of the classrooms, causing panic. Animal control needs to handle this situation urgently.""",High
+"""The flood alarms are ringing, and water is rapidly rising in the basement levels. Evacuate and fix the issue immediately.""",High
+"""A vehicle crash occurred at the entrance, blocking the emergency lane. Police and medical help are needed urgently.""",High
+"""A robbery took place inside the premises, and the suspects are still at large. Security intervention is required immediately.""",High
+"""The air conditioning system in the office isn’t working, making it uncomfortable for staff to work efficiently.""",Medium
+"""The Wi-Fi connection is unstable, affecting the team's ability to complete tasks on time.""",Medium
+"""There is a broken window in the meeting room that needs to be repaired before it becomes a safety issue.""",Medium
+"""The cafeteria has been serving cold meals lately, and employees have been complaining about the quality of food.""",Medium
+"""The restroom on the third floor is out of order, causing inconvenience to employees.""",Medium
+"""A minor leak has been reported in the storage room. It needs to be fixed to prevent damage to stored items.""",Medium
+"""The company car needs servicing soon, as the engine light has been on for a week.""",Medium
+"""A key printer in the office has stopped working, delaying important document processing.""",Medium
+"""The projector in the main conference room is malfunctioning, disrupting scheduled meetings.""",Medium
+"""Several lights in the parking area are not working, making it dimly lit in the evening.""",Medium
+"""There is a strong unpleasant odor in the break room, likely due to a broken fridge.""",Medium
+"""The office elevator has been making unusual noises. It needs maintenance to avoid future issues.""",Medium
+"""The water cooler on the second floor is empty and hasn’t been refilled for the entire day.""",Medium
+"""Several employees reported issues with accessing their email accounts due to a system glitch.""",Medium
+"""The office cleaning staff missed several areas yesterday, leaving some desks dirty.""",Medium
+"""The office entrance door lock is not functioning well and needs a replacement soon.""",Medium
+"""The company’s shared calendar system is down, causing scheduling issues for meetings.""",Medium
+"""The parking gate sensors are malfunctioning, causing delays during morning rush hour.""",Medium
+"""The office plants are wilting due to a broken watering system, affecting the ambiance.""",Medium
+"""There is a request to upgrade the old monitors in the IT department for better performance.""",Medium
+"""The office sound system isn’t working, affecting announcements and meetings.""",Medium
+"""The coffee machine in the pantry is broken, causing inconvenience to employees.""",Medium
+"""The company website is loading slowly, affecting user experience but still operational.""",Medium
+"""The office security cameras need a software update, as they are showing lagging footage.""",Medium
+"""A complaint has been made about the heating system in the office being too high during summer.""",Medium
+"""The office refrigerator isn’t cooling properly, causing food items to spoil.""",Medium
+"""The server room needs better cooling, as temperatures are slightly higher than recommended.""",Medium
+"""The fire extinguisher in the hallway needs a refill, as it was partially used during a drill.""",Medium
+"""The cleaning crew has been inconsistent with garbage disposal in the office lately.""",Medium
+"""The bathroom sink is leaking slightly, causing water to spill onto the floor.""",Medium
+"""The office intercom system is not clear, causing communication issues between floors.""",Medium
+"""The shared office phone line has been experiencing intermittent issues during calls.""",Medium
+"""The blinds in the main conference room are broken, making it difficult to adjust sunlight.""",Medium
+"""The break room chairs are old and need to be replaced soon for better comfort.""",Medium
+"""The office air purifier needs a new filter replacement for better air quality.""",Medium
+"""The vending machine is not dispensing items correctly, causing frustration among employees.""",Medium
+"""The office printer is running low on toner and needs to be refilled soon.""",Medium
+"""A request has been made for new office supplies, as current stock is running low.""",Medium
+"""The outdoor signage lights are flickering, affecting visibility at night.""",Medium
+"""The office Wi-Fi password needs updating for better security and user access.""",Medium
+"""The office thermostat is malfunctioning, causing inconsistent temperatures throughout the day.""",Medium
+"""Several employees reported that the office chairs are uncomfortable and need adjustments.""",Medium
+"""The office carpeting has stains and needs professional cleaning soon.""",Medium
+"""The company’s file-sharing service has been slower than usual, affecting productivity.""",Medium
+"""The office backup generator was slow to start during the last power outage, needing a checkup.""",Medium
+"""The office clock needs battery replacement as it stopped working.""",Medium
+"""The office plants need regular watering, as they are wilting due to neglect.""",Medium
+"""The power strips under the desks are outdated and need replacements for safety.""",Medium
+"""The hand sanitizers in common areas are empty and need refills for hygiene.""",Medium
+"""There is a foul smell in the restroom; it needs thorough cleaning soon.""",Medium
+"""The office network is lagging today, causing slowdowns in accessing shared drives.""",Medium
+"""The air conditioning vent in my cabin needs a filter replacement; the airflow is reduced.""",Medium
+"""The microwave in the pantry isn’t heating food properly. It may need maintenance.""",Medium
+"""The blinds in the main lobby are stuck, making it hard to adjust the lighting.""",Medium
+"""The office flooring has a small crack, which could worsen if not fixed soon.""",Medium
+"""A light fixture in the hallway is flickering and needs to be checked by maintenance.""",Medium
+"""The shared office car hasn’t been cleaned for a while and is in poor condition.""",Medium
+"""The office fire alarm was triggered accidentally yesterday; it needs inspection.""",Medium
+"""The drinking water supply tastes different; it might need a quality check.""",Medium
+"""The office conference room computer is outdated and causing delays during presentations.""",Medium
+"""The cafeteria menu hasn’t been updated in weeks; employees are requesting more variety.""",Medium
+"""The office plants are dry and seem neglected; they need watering.""",Medium
+"""The exit door in the back of the office is hard to open, especially during emergencies.""",Medium
+"""The office has run out of stationery supplies like pens and notepads.""",Medium
+"""The window seal in the storage room is broken, letting in cold air during winter.""",Medium
+"""The office coffee maker needs descaling as the coffee quality has reduced.""",Medium
+"""The office reception desk is understaffed during peak hours, causing delays in service.""",Medium
+"""The desk phones are experiencing static noise during calls; IT support needs to check them.""",Medium
+"""The break room fridge needs defrosting as ice is building up inside.""",Medium
+"""The office projector bulb is dimming, and it needs replacement soon.""",Medium
+"""The security team has requested new badges for better access control.""",Medium
+"""The curtains in the CEO's office are difficult to close, causing glare during meetings.""",Medium
+"""The file cabinets in the records room are jammed and need fixing to avoid delays in retrieving documents.""",Medium
+"""The office Wi-Fi range does not reach the far corner workstations, causing connectivity issues.""",Medium
+"""The office doorbell is not working, making it hard for visitors to alert their arrival.""",Medium
+"""The carpet in the main office is wearing thin and needs replacement in high-traffic areas.""",Medium
+"""The office clock needs new batteries; it’s not showing the correct time.""",Medium
+"""The conference room chairs have worn-out padding, making them uncomfortable for long meetings.""",Medium
+"""The office pantry is running low on tea and coffee supplies.""",Medium
+"""The shredder in the copy room is jammed and needs servicing.""",Medium
+"""The bathroom faucet is dripping and needs to be tightened.""",Medium
+"""The whiteboard markers in the meeting rooms are running out of ink.""",Medium
+"""The office scanner is slow and often jams, delaying document processing.""",Medium
+"""The receptionist desk needs a new headset for better call handling.""",Medium
+"""The window blinds in the training room are broken, letting in too much sunlight.""",Medium
+"""The shared company email account is receiving too much spam and needs better filters.""",Medium
+"""The office mailbox hasn’t been emptied for a week; important documents may be getting delayed.""",Medium
+"""The thermostat is set too low, making the office too cold for most employees.""",Medium
+"""The filing system needs better organization; documents are hard to locate.""",Medium
+"""The power outlets near the workstations are faulty and need to be checked by an electrician.""",Medium
+"""The smoke detector in the hallway needs a battery replacement.""",Medium
+"""The shared office Dropbox account is reaching its storage limit.""",Medium
+"""The external windows are dirty and need professional cleaning.""",Medium
+"""The lighting in the storage room is dim and needs brighter bulbs.""",Medium
+"""The office clock in the lobby isn’t working, and clients are noticing the incorrect time.""",Medium
+"""The office pantry requires a new microwave oven for quicker heating during lunch hours.""",Medium
+"""The outdoor seating area needs new umbrellas for shade.""",Medium
+"""The office printer is low on toner and needs replacement soon.""",Medium
+"""There’s a broken chair in the break room that needs to be fixed.""",Medium
+"""The Wi-Fi connection is intermittent in some areas of the office.""",Medium
+"""The air conditioning unit in the east wing is noisy and needs servicing.""",Medium
+"""The hallway lights are too dim, and the area feels unsafe after dark.""",Medium
+"""The parking lot is not properly lit during the night and could pose a security risk.""",Medium
+"""The vending machine in the lobby is out of stock, and employees are asking for restocking.""",Medium
+"""The exit signs in the back office area are not visible from a distance and need better placement.""",Medium
+"""The office directory near the entrance is outdated and needs to be updated with the latest staff list.""",Medium
+"""The main door lock needs to be fixed as it’s getting stuck sometimes.""",Medium
+"""The conference room chairs have loose armrests that need tightening.""",Medium
+"""The carpet in the hallway has several stains that need to be cleaned.""",Medium
+"""The back office window doesn’t close properly, letting cold air in.""",Medium
+"""The washing machine in the staff area is malfunctioning and needs servicing.""",Medium
+"""The lights in the basement storage room need to be replaced as they’re flickering.""",Medium
+"""The filing cabinets in HR are disorganized, and several documents are hard to find.""",Medium
+"""The office kitchen faucet is leaking slightly and needs tightening.""",Medium
+"""The parking spaces for handicapped individuals need clearer signage for accessibility.""",Medium
+"""The first aid kit in the break room is missing some supplies, and it needs to be restocked.""",Medium
+"""The windows in the main office need cleaning due to dust buildup.""",Medium
+"""The air purifiers in the office need maintenance as they are emitting a strange noise.""",Medium
+"""The shared office calendar is often out of sync with the actual meeting schedule.""",Medium
+"""The office printer has a paper jam that needs to be cleared for regular usage.""",Medium
+"""The lighting in the restroom is too dim, making it hard to see.""",Medium
+"""The IT equipment in the server room needs to be checked for overheating.""",Medium
+"""The printer paper stock in the supply room is low and needs restocking soon.""",Medium
+"""The fan in the office kitchen is making a lot of noise and needs oiling.""",Medium
+"""The server backup system is slow and needs upgrading.""",Medium
+"""The whiteboard markers are drying up quickly and need to be replaced more often.""",Medium
+"""The bathroom sink is clogged and needs to be fixed as soon as possible.""",Medium
+"""The coffee machine filter is clogged, and it’s producing poor-quality coffee.""",Medium
+"""The emergency exit door needs to be tested regularly to ensure it opens without issues.""",Medium
+"""The office space layout needs to be reorganized for better space utilization.""",Medium
+"""The cleaning schedule for the office is irregular, and some areas are often overlooked.""",Medium
+"""The computer mouse in the IT support office needs to be replaced as it’s malfunctioning.""",Medium
+"""The carpet in the meeting room is lifting up at the edges and poses a tripping hazard.""",Medium
+"""The kitchen sink is slow to drain, and there may be a blockage that needs clearing.""",Medium
+"""The office walls are covered in scuff marks from moving furniture and need cleaning.""",Medium
+"""The office bulletin board needs to be updated with the latest company announcements.""",Medium
+"""The external door to the building is sticking and difficult to open, especially during rush hours.""",Medium
+"""The storage area for office supplies is disorganized, making it hard to find items quickly.""",Medium
+"""The office network firewall is flagging too many alerts and may need an audit.""",Medium
+"""The hallway rug needs to be cleaned as there are noticeable dirt stains.""",Medium
+"""The heating system is not distributing warmth evenly across the office, especially near the windows.""",Medium
+"""The bathroom soap dispensers are running low and need to be refilled.""",Medium
+"""The outdoor seating area needs the grass trimmed and the furniture cleaned.""",Medium
+"""The copier is frequently malfunctioning and requires frequent intervention to fix.""",Medium
+"""The kitchen garbage disposal is not working properly and needs to be fixed soon.""",Medium
+"""The office storage cabinets are overstuffed and need to be reorganized.""",Medium
+"""The restroom stall door hinges are squeaky and need oiling.""",Medium
+"""The office kitchen fridge is too full, and some items are expired. A clean-up is needed.""",Medium
+"""The office stairwell lights are too dim and need to be replaced with brighter bulbs.""",Medium
+"""The printer in the front office has a low ink warning and needs to be refilled soon.""",Medium
+"""The office meeting room temperature is fluctuating, and it's uncomfortable for long meetings.""",Medium
+"""The ceiling fan in the lobby is making a rattling noise and needs maintenance.""",Medium
+"""The office door handles are getting loose and need to be tightened before they fall off.""",Medium
+"""The water dispenser in the break room is leaking slightly and needs repair.""",Medium
+"""The clock in the conference room is not working, and we need to replace the battery.""",Medium
+"""The emergency lighting in the building is not functioning properly and needs testing.""",Medium
+"""The whiteboard in the meeting room is too dirty and needs to be cleaned thoroughly.""",Medium
+"""The office windows are streaky and need a deep clean to improve visibility.""",Medium
+"""The carpet near the entrance is worn out and needs to be replaced to avoid tripping hazards.""",Medium
+"""The office printer is having frequent paper jams and needs to be serviced.""",Medium
+"""The office break room microwave needs cleaning as it smells of burnt food.""",Medium
+"""The electrical outlets in the conference room are not all working and need to be checked.""",Medium
+"""The office phone system has a static issue, and the calls are not coming through clearly.""",Medium
+"""The office calendar system needs to be synced across all devices for accurate scheduling.""",Medium
+"""The water cooler needs to be cleaned to avoid a build-up of bacteria.""",Medium
+"""The shelves in the storage room are overcrowded and need to be reorganized.""",Medium
+"""The office chairs have uneven height adjustments and need to be fixed.""",Medium
+"""The building’s external door is getting stuck and needs to be adjusted to open easily.""",Medium
+"""The air conditioning in the break room is too cold and needs to be set at a more comfortable temperature.""",Medium
+"""The security cameras in the parking lot need to be checked for proper functioning.""",Medium
+"""The supply cabinet is unorganized, and it’s hard to find necessary office materials.""",Medium
+"""The trash cans in the kitchen need to be emptied more frequently during peak hours.""",Medium
+"""The office whiteboard markers are running dry and need to be replaced.""",Medium
+"""The door to the supply room is not locking correctly, and we need to secure it.""",Medium
+"""The printer ink cartridges are running low and need to be replaced soon.""",Medium
+"""The parking lot entrance has large potholes, which make driving difficult.""",Medium
+"""The office Wi-Fi router needs a firmware update to improve speed and reduce dropped connections.""",Medium
+"""The office’s coat rack is full, and employees are unable to hang their coats.""",Medium
+"""The hallway exit signs are not well lit and need brighter bulbs to ensure visibility.""",Medium
+"""The bathroom exhaust fan is not working and needs to be fixed.""",Medium
+"""The meeting room projector needs calibration to improve the clarity of the display.""",Medium
+"""The window blinds in the office are broken and need to be replaced.""",Medium
+"""The office printer is missing paper, and it needs to be refilled.""",Medium
+"""The chairs in the waiting area are not arranged properly and need to be aligned.""",Medium
+"""The water supply in the men's restroom is weak and needs to be checked for a blockage.""",Medium
+"""The air conditioning vent in the kitchen is not blowing cold air and needs to be cleaned.""",Medium
+"""The restroom needs a new soap dispenser, as the current one is malfunctioning.""",Medium
+"""The reception area seating is uncomfortable and needs to be replaced for better guest experience.""",Medium
+"""The office TV is not working, and we need to check the cables.""",Medium
+"""The whiteboard in the conference room is too small for large meetings and needs to be upgraded.""",Medium
+"""The photocopier paper is running low and needs to be replenished before the meeting.""",Medium
+"""The office air conditioning unit is leaking water, and it needs to be repaired.""",Medium
+"""The overhead projector in the training room is outdated and needs to be replaced.""",Medium
+"""The office bulletin board needs to be updated with the latest announcements.""",Low
+"""There’s a small crack in the office window, but it doesn’t affect the view.""",Low
+"""The coat rack in the entrance is slightly wobbly but still usable.""",Low
+"""The trash can in the hallway is almost full and needs to be emptied.""",Low
+"""The conference room needs a few extra chairs for large meetings.""",Low
+"""The air conditioning in the break room is a bit noisy but functional.""",Low
+"""The lights in the hallway are flickering intermittently.""",Low
+"""The printer is missing one of its paper trays, but it still prints fine.""",Low
+"""The office sink has a slow drain but still works.""",Low
+"""There’s a slight stain on the office carpet that doesn’t affect the overall look.""",Low
+"""The filing cabinet handle is loose but still works.""",Low
+"""The office window blinds are slightly bent but still provide shade.""",Low
+"""The parking lot needs some general cleanup, but it’s not causing any inconvenience.""",Low
+"""The desk lamp in the meeting room flickers occasionally.""",Low
+"""The water cooler is a bit low on water but still operational.""",Low
+"""The whiteboard in the conference room has some marks that need to be wiped off.""",Low
+"""The chairs in the lounge area could use a little rearranging.""",Low
+"""The printer’s color settings need adjustment but it’s still printing fine.""",Low
+"""The door to the restroom needs to be adjusted as it’s a little stiff.""",Low
+"""The computer monitor in the front office needs its screen brightness adjusted.""",Low
+"""The office décor could use a refresh, but it’s not an urgent issue.""",Low
+"""The cleaning supplies are running low but still enough for the week.""",Low
+"""The door to the storage closet squeaks when opened.""",Low
+"""The conference room clock needs a battery replacement.""",Low
+"""The office refrigerator could use some organization, but it’s not a priority.""",Low
+"""There’s a bit of dust on the office furniture that could be wiped down.""",Low
+"""The coat hook near the entrance is a little loose but still usable.""",Low
+"""The door mat in front of the office entrance could be cleaned.""",Low
+"""The paper towel dispenser in the restroom is not refilled, but it’s still functional.""",Low
+"""There’s a small paper jam in the printer, but it’s easy to fix.""",Low
+"""The whiteboard markers in the meeting room are getting low on ink.""",Low
+"""The light switch in the hallway could use a little lubrication.""",Low
+"""The door to the meeting room doesn’t close completely but can be used.""",Low
+"""The chairs in the office kitchen could be rearranged for better space.""",Low
+"""There’s a scratch on the office wall that doesn’t affect the overall appearance.""",Low
+"""The desk drawers in the conference room are a bit hard to open.""",Low
+"""The fax machine could use a small clean-up, but it’s still functional.""",Low
+"""The office kitchen counter could be wiped down after use, but it’s not urgent.""",Low
+"""The lounge area could use some rearrangement for better flow.""",Low
+"""The office printer could be moved closer to the main desk for easier access.""",Low
+"""The light in the bathroom could be brighter but works fine as is.""",Low
+"""There’s a small pile of outdated magazines in the lobby that can be recycled.""",Low
+"""The desk drawer in the lounge area is getting a little stuck and could use some oil.""",Low
+"""The vending machine is slightly jammed, but it still works.""",Low
+"""The office sign outside could be cleaned up a little.""",Low
+"""The coat rack in the break room could use a little rearranging.""",Low
+"""There are some old documents that could be archived but don’t require immediate attention.""",Low
+"""The office door hinges need oiling, as they squeak occasionally.""",Low
+"""There’s some minor peeling of paint in the storage closet that can be touched up later.""",Low
+"""The office Wi-Fi router could be placed in a more central location, but it’s still working.""",Low
+"""The desk in the conference room is cluttered and needs some tidying up.""",Low
+"""The office bookshelf could be organized to fit more items.""",Low
+"""There are some old flyers on the bulletin board that need to be removed.""",Low
+"""The sink in the kitchen is not draining fast enough, but it’s still functional.""",Low
+"""The fridge in the break room needs to be defrosted but is still working.""",Low
+"""The restroom door handle could use some tightening but works fine.""",Low
+"""The floor near the entrance has some scuff marks that can be cleaned.""",Low
+"""The office window screen is slightly damaged but still keeps insects out.""",Low
+"""The printer needs a paper tray refill soon, but there’s still enough paper for now.""",Low
+"""The office TV needs the remote battery replaced but can still be operated manually.""",Low
+"""There are some minor cracks in the bathroom tile, but they’re not a safety hazard.""",Low
+"""The hallway air vent is a little dusty, but it doesn’t affect airflow.""",Low
+"""The office door sign is slightly crooked and needs to be realigned.""",Low
+"""The office is a bit cold, but the thermostat can be adjusted.""",Low
+"""The restrooms could use a more frequent cleaning schedule, but it’s not urgent.""",Low
+"""There’s a small dent in the wall, but it’s not noticeable unless closely inspected.""",Low
+"""The chairs in the meeting room need to be rearranged for better seating.""",Low
+"""The paper towel holder in the restroom needs to be fixed but is still functional.""",Low
+"""The door mat outside the office could be washed but is still doing its job.""",Low
+"""There’s a small crack in the ceiling, but it doesn’t pose any immediate risk.""",Low
+"""The kitchen trash can needs to be emptied soon, but it’s not urgent.""",Low
+"""The office plants need watering but can wait until tomorrow.""",Low
+"""The paper shredder needs its waste bin emptied soon but still works fine.""",Low
+"""There’s some dirt in the corner of the office that can be cleaned later.""",Low
+"""The door to the storage closet is not fully closing, but it still locks properly.""",Low
+"""The office clock could use a time adjustment but is not far off.""",Low
+"""The coat rack could be cleaned, but it’s not causing any inconvenience.""",Low
+"""The restroom soap dispenser is running low and should be refilled soon.""",Low
+"""The conference room chairs could be adjusted for better comfort but don’t need immediate attention.""",Low
+"""The reception area could be reorganized for a more welcoming atmosphere.""",Low
+"""There are a few office supplies that need to be reordered but can wait until the stock runs out.""",Low
+"""The lights in the break room flicker occasionally but still provide adequate light.""",Low
+"""The office microwave needs to be cleaned but is still working fine.""",Low
+"""There are some papers that need to be filed, but it’s not urgent.""",Low
+"""The office whiteboard needs a fresh marker to be more visible, but it can be used for now.""",Low
+"""The water dispenser needs a filter change but is still providing clean water.""",Low
+"""There are some broken office supplies in the supply room that can be disposed of later.""",Low
+"""The hallway light switches could use a little tidying up.""",Low
+"""The office windows are a little dirty, but the sunlight is still coming through.""",Low
+"""The conference room projector is slightly out of focus but still viewable.""",Low
+"""The hallway floor could use a quick sweep, but it's not causing any problems.""",Low
+"""The vending machine in the lobby needs a restock of snacks, but it still works.""",Low
+"""The office phone is not charging properly but still has enough battery for the day.""",Low
+"""The restroom faucet is dripping a little, but it’s not wasting too much water.""",Low
+"""There’s a sticky spot on the kitchen counter that can be wiped down later.""",Low
+"""The office entrance door could use a new coat of paint, but it’s not urgent.""",Low
+"""The water cooler needs a cleaning but is still functional.""",Low
+"""The paper towels in the restroom are running low but there’s still some left.""",Low
+"""There’s a minor dent in the office refrigerator, but it still works fine.""",Low
+"""The bulletin board in the hallway is slightly out of alignment but still usable.""",Low
+"""The parking lot could use a little sweeping, but it’s still navigable.""",Low
+"""The trash can near the front desk is full but can wait until the end of the day.""",Low
+"""The kitchen sink is draining a bit slowly, but it's still functional.""",Low
+"""The office clock is a few minutes fast but still tells the time accurately enough.""",Low
+"""The lightbulb in the meeting room flickers occasionally but doesn't affect visibility.""",Low
+"""The door handle in the storage closet is loose but still usable.""",Low
+"""The curtains in the office are a little wrinkled but still block out the sun.""",Low
+"""The window in the conference room has some dust on it, but the view is still clear.""",Low
+"""The chairs in the lounge area could be rearranged but are not causing any obstruction.""",Low
+"""The filing cabinet needs to be organized, but it’s not in immediate need of attention.""",Low
+"""The restrooms could use a quick wipe down, but they are functional.""",Low
+"""There’s a small mark on the wall near the break room, but it’s barely noticeable.""",Low
+"""The air conditioner in the break room is a little noisy but still works.""",Low
+"""The light in the supply closet is dim but still provides enough light to work.""",Low
+"""There are some old boxes in the storage area that could be moved to create space.""",Low
+"""The door to the lounge area is not closing completely but can be latched shut.""",Low
+"""The printer’s paper tray is a little stuck but can still be opened with a little effort.""",Low
+"""The office door mat could use a shake but is still serving its purpose.""",Low
+"""The office walls could be touched up with paint, but they aren’t too noticeable.""",Low
+"""There’s a small scratch on the conference table, but it’s not very visible.""",Low
+"""The carpet near the entrance has some dirt on it, but it can be vacuumed later.""",Low
+"""The coat rack is slightly leaning but still holds coats securely.""",Low
+"""The office refrigerator could be organized better, but it's still working fine.""",Low
+"""The meeting room projector remote is missing a battery but still works with manual controls.""",Low
+"""The office sink could use a cleaning but isn't dirty enough to be a priority.""",Low
+"""The microwave in the kitchen is slightly dirty but still working fine.""",Low
+"""The office door could be realigned slightly, as it sticks when opening.""",Low
+"""The storage shelves in the break room are getting cluttered but are still functional.""",Low
+"""The restroom floor could use a quick mop, but it’s still clean enough.""",Low
+"""The lounge area light is a bit dim but still functional.""",Low
+"""The file drawers in the meeting room need organizing, but it’s not pressing.""",Low
+"""The small office fan is a little noisy but still keeps the room cool.""",Low
+"""The office printer needs to be recalibrated but still prints fine.""",Low
+"""The office walls could use a little cleaning from fingerprints.""",Low
+"""There are a few loose papers on the desk that could be filed away.""",Low
+"""The entryway could use some rearranging, but it’s still passable.""",Low
+"""The restroom soap dispenser is running low, but there’s enough for today.""",Low
+"""The trash can in the break room could be replaced, but it’s still functional.""",Low
+"""The fax machine is a bit slow but still operational.""",Low
+"""The office whiteboard markers are starting to dry out but can still be used.""",Low
+"""The phone charger in the office is not working well, but it’s still usable.""",Low
+"""The lounge area chairs could be arranged in a more comfortable setup.""",Low
+"""The printer paper size needs adjusting, but it still prints correctly.""",Low
+"""The office door needs a new lock, but it still secures properly.""",Low
+"""The coat rack needs some tightening but is still standing fine.""",Low
+"""There’s a small crack in the hallway mirror but doesn’t affect the overall look.""",Low
+"""The vending machine in the lobby needs restocking with more drink options.""",Low
+"""The water cooler filter could be replaced soon, but it’s still functioning.""",Low
+"""The lights in the hallways are a bit dim but still provide enough lighting.""",Low
+"""The meeting room chairs could use a little cleaning, but they’re still fine.""",Low
+"""The door to the office kitchen doesn’t shut completely, but it can still be closed.""",Low
+"""There’s a small stain on the desk, but it can be cleaned later.""",Low
+"""The filing cabinet is hard to open but can still be used.""",Low
+"""The reception desk could use a bit of rearranging to make it look neater.""",Low
+"""The restroom door lock is a bit tricky but still works.""",Low
+"""There are some old magazines in the waiting area that could be recycled.""",Low
+"""The water dispenser needs a new cup holder, but it still works fine.""",Low
+"""The coat hook in the hallway could use a little tightening but still holds coats.""",Low
+"""The air vent in the office could use a little dusting, but it’s not urgent.""",Low
+"""The office chair has a small rip in the fabric, but it’s still comfortable.""",Low
+"""The lights in the kitchen could be brighter, but it’s still functional.""",Low
+"""The conference room could use a more decorative touch, but it’s not necessary right now.""",Low
+"""There are some old files on the desk that can be filed away later.""",Low
+"""The office thermostat could use a calibration, but the temperature is still comfortable.""",Low
+"""The printer could use some new ink cartridges soon but still prints clearly.""",Low
+"""The office plants need to be watered but can wait another day.""",Low
+"""The conference room chairs could be adjusted for better comfort, but it’s not urgent.""",Low
+"""The restroom mirror needs a quick wipe but is still reflective.""",Low
+"""The office whiteboard could use a quick cleaning to remove old markings.""",Low
+"""The paper shredder could use a quick clean-up, but it's not urgent.""",Low
+"""The office desks could be rearranged for better flow, but it’s not a priority.""",Low
+"""The printer paper tray could use a quick refill, but there’s still enough for today.""",Low
+"""The kitchen cupboard could be organized better, but it’s not a priority.""",Low
+"""The door to the meeting room could use a little oiling to stop the squeak.""",Low
+"""The office windows could be cleaned, but they’re still letting in enough light.""",Low
+"""The lounge area could use a few extra pillows for comfort.""",Low
+"""The office door mat could use a clean but is still functional.""",Low
+"""There are some old office supplies that can be recycled but are not urgent.""",Low
+"""The restroom door handle is a little loose but still works fine.""",Low
+"""The restroom door handle is a little loose but still works fine.""",Low
+"""The window blinds in the break room could be adjusted for better light control.""",Low
+"""The office chairs could use a little lubrication for smoother movement.""",Low
+"""The rest of the office could use a general tidying up, but it's not urgent.""",Low
+"""There are a few paper clips on the floor that could be picked up later.""",Low
+"""The storage closet is a little disorganized but still functional.""",Low
+"""There’s a small hole in the wall that can wait for a patch.""",Low
+"""The microwave in the kitchen could use a quick clean but still heats food fine.""",Low
+"""There are some pens in the supply drawer that need refilling, but it’s not urgent.""",Low
+"""The water cooler could use a quick wipe down but is still functioning.""",Low
+"""The hallway sign is a little crooked but still visible.""",Low
+"""The printer’s output tray could use a slight adjustment to prevent paper jams.""",Low
+"""The door to the restroom could use a little cleaning but is still usable.""",Low
+"""The entryway rug could be straightened but isn't a major issue.""",Low

@@ -1,0 +1,9 @@
+# .gitignore
+
+# Ignore node_modules for the backend
+/rvN_be/node_modules
+/rvN_be/.env
+
+
+/rvN_fe/node_modules
+/rvN_fe/.env

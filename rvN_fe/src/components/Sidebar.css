@@ -1,0 +1,17 @@
+/* Ensure sidebar remains fixed while the content area scrolls */
+/* Ensure sidebar remains fixed while the content area scrolls */
+.sidebar {
+  display: flex;
+  position: relative;
+}
+
+
+/* Main content area fills remaining space */
+.main-content{
+  height: 100vh 
+}
+@media screen and (min-width: 720px) {
+  .main-content {
+    height: calc(100vh - 90px);
+  }
+}
