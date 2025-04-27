@@ -2,74 +2,10 @@ const express = require('express');
 const multer = require('multer');
 const { UserReport, Authority, User , Message, CentralAdmin } = require('../models/User');
 const { jwtDecode } = require('jwt-decode');
-const { SentimentAnalyzer, PorterStemmer, WordTokenizer } = require('natural');
 const nodemailer = require('nodemailer');
 const path = require('path');
 const axios = require('axios');
-
-const fs = require('fs');
-// Initialize the sentiment analyzer for English
-const analyzer = new SentimentAnalyzer('English', PorterStemmer, 'afinn');
-
-// Import the 'natural' package
-const natural = require('natural');
-const csvParser = require('csv-parser');
-// Use PorterStemmer from 'natural'
-const stemmer = natural.PorterStemmer;
-
 const router = express.Router();
-
-// Multer configuration for handling file uploads
-//const natural = require('natural');
-const Sentiment = require('sentiment');
-//const HUGGING_FACE_API_URL = 'https://api-inference.huggingface.co/models/facebook/bart-large-cnn';
-//const API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-mnli";
-// const API_KEY = process.env.HUGAPI_KEY; // Replace with your actual token
-const FuzzySet = require('fuzzyset.js'); // Import fuzzyset.js for partial matching
-
-// Adjusted corpus to hold descriptive phrases and priorities
-let corpus = [];
-let fuzzyCorpus; // Fuzzy matching set
-
-
-
-
-// Load descriptive phrases and priority from CSV
-// function loadCorpusFromCSV() {
-//   return new Promise((resolve, reject) => {
-//     const filePath = path.join(__dirname, '..', 'static', 'newcorpus.csv');
-
-//     fs.createReadStream(filePath)
-//       .pipe(csvParser())
-//       .on('data', (row) => {
-//         corpus.push({
-//           description: row.Description.toLowerCase(),
-//           priority: row.Priority
-//         });
-//       })
-//       .on('end', () => {
-//         // Initialize fuzzy matching set with the descriptions
-//         fuzzyCorpus = FuzzySet(corpus.map(entry => entry.description));
-//         resolve();
-//       })
-//       .on('error', (error) => {
-//         reject(error);
-//       });
-//   });
-// }
-
-
-
-
-// Load corpus on server startup
-// loadCorpusFromCSV()
-//   .then(() => {
-//     //console.log('Corpus loaded successfully:', corpus);
-//   })
-//   .catch((error) => {
-//     //console.error('Error loading corpus:', error);
-//   });
-
 
 
 // Function to classify priority using Meta Llama 2
@@ -124,61 +60,6 @@ const classifyPriorityWithHuggingFace = async (title, description) => {
 };
 
 
-
-// Function to classify priority based on fuzzy matching with corpus
-// function classifyPriority(text) {
-//   text = text.toLowerCase();
-
-//   // Try fuzzy matching first
-//   const match = fuzzyCorpus.get(text, null, 0.3);
-//   if (match) {
-//     const matchedDescription = match[0][1];
-//     const entry = corpus.find(entry => entry.description === matchedDescription);
-//     if (entry) {
-//       console.log("Matched priority:", entry.priority); // Log matched priority
-//       return entry.priority;
-//     }
-//   }
-
-//   // Fallback to substring matching if no fuzzy match is found
-//   for (const entry of corpus) {
-//     if (text.includes(entry.description)) {
-//       console.log("Substring match found, priority:", entry.priority);
-//       return entry.priority;
-//     }
-//   }
-
-//   console.log("No matches found, returning Low priority.");
-//   return "Low";
-// }
-
-// // Function to use the BART model for summarization
-// async function bartModelSummarize(title, description) {
-//   const inputText = `${title} ${description}`;
-  
-//   const response = await fetch(HUGGING_FACE_API_URL, {
-//     method: 'POST',
-//     headers: {
-//       'Authorization': `Bearer ${HUGGING_FACE_API_TOKEN}`,
-//       'Content-Type': 'application/json'
-//     },
-//     body: JSON.stringify({ inputs: inputText })
-//   });
-
-//   const result = await response.json();
-//   console.log("BART Result:", result);
-  
-//   // Extract the summary text if available
-//   if (result && result.length > 0 && result[0].summary_text) {
-//     return result[0].summary_text; 
-//   }
-  
-//   return ""; // Return empty if no valid summary
-// }
-
-
-
-
 const detectScamWithGemini = async (title, description) => {
   try {
       const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${process.env.GEMINI_API}`;
@@ -209,9 +90,6 @@ const detectScamWithGemini = async (title, description) => {
       return false; // Default to "not a scam" if the API fails
   }
 };
-
-
-
 
 
 const detectScamWithMistral = async (title, description) => {
@@ -247,12 +125,6 @@ const detectScamWithMistral = async (title, description) => {
         return "error"; // Default response in case of failure
     }
 };
-
-
-
-
-
-
 
 
 // Endpoint to post user reports
@@ -407,7 +279,7 @@ router.get('/reportstatus/:status', async (req, res) => {
       console.error(error);
       res.status(500).json({ message: 'Internal server error' });
     }
-  });
+});
 
 
 // Function to send status update email
@@ -449,8 +321,8 @@ UniGrievance Team`,
     console.error("Error sending report status email:", error.message);
   }
 };
-  
-  
+
+
 // Function to send user report status email
 const sendReportStatusEmail = async (email, title, status,dueDate) => {
   try {
@@ -500,9 +372,7 @@ UniGrievance Team`,
 };
 
 
-
-
-  router.post('/updateReportStatus/:reportId', async (req, res) => {
+router.post('/updateReportStatus/:reportId', async (req, res) => {
     try {
         const { reportId } = req.params;
         const { status } = req.body;
@@ -558,8 +428,7 @@ UniGrievance Team`,
 });
 
 
-
-  router.post('/assignReport/:reportId/:department', async (req, res) => {
+router.post('/assignReport/:reportId/:department', async (req, res) => {
     try {
       const { reportId } = req.params;
       const { department } = req.params;
@@ -631,7 +500,7 @@ router.get('/getReportsAssigned', async (req, res) => {
 });
 
 
-  router.get('/recent-user-reports', async (req, res) => {
+router.get('/recent-user-reports', async (req, res) => {
     try {
       // Calculate the date and time 1 hour ago
       const oneHourAgo = new Date();
@@ -660,10 +529,10 @@ router.get('/getReportsAssigned', async (req, res) => {
       console.error(error);
       res.status(500).json({ message: 'Internal server error' });
     }
-  });
-  
+});
 
-  router.get('/getuserreports/:userId', async (req, res) => {
+
+router.get('/getuserreports/:userId', async (req, res) => {
     const userId = req.params.userId;
   
     try {
@@ -679,12 +548,10 @@ router.get('/getReportsAssigned', async (req, res) => {
       console.error(error);
       res.status(500).json({ message: 'Internal server error' });
     }
-  });
+});
 
 
-
-
-  router.get("/getOverdueReports", async (req, res) => {
+router.get("/getOverdueReports", async (req, res) => {
     try {
         const currentDate = new Date();
 
@@ -709,13 +576,7 @@ router.get('/getReportsAssigned', async (req, res) => {
 });
 
 
-
-
-
-
-
-  
-  router.get('/messagesExists', async (req, res) => {
+router.get('/messagesExists', async (req, res) => {
     try {
       // Extract the token from the request headers
       const token = req.headers.authorization;
@@ -743,9 +604,7 @@ router.get('/getReportsAssigned', async (req, res) => {
       console.error('Error retrieving messages:', error);
       res.status(500).json({ error: 'Internal server error' });
     }
-  });
-
-
+});
 
 
 module.exports = router;
